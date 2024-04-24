@@ -50,6 +50,20 @@ class MessageHeader
     public $subject;
 
     /**
+     * Message envelope
+     *
+     * @var string
+     */
+    public $envelope;
+
+    /**
+     * Message body part
+     *
+     * @var string
+     */
+    public $bodypart;
+
+    /**
      * Message sender (From)
      *
      * @var string
